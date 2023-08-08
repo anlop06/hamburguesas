@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">   
+    <title>Hamburguesas el puente</title>
+</head>
+<body>
+     
+    <div class="container">
+        
+        <h1>El náufrago satisfecho</h1>
+        <p>Escoge tu hamburguesa:</p>
+        
+        <div class="hamburguesa">
+            
+            <label for="">Tipo</label>
+            <select name="" id="tipo">
+                <option value="simple">Simple</option>
+                <option value="doble">Doble</option>
+                <option value="triple">Triple</option>
+            </select>
+            
+        </div>
+    
+        
+        <div class="cantidad">
+            <label for="">No. de Hamburguesas</label>
+            <input id="cantidad" type="number" placeholder="Cantidad">
+        </div>
+    
+        
+        <div class="tarjeta">
+            <label for="">Tarjeta</label>
+            <select name="" id="tarjeta">
+                <option value="si">Sí</option>
+                <option value="mo">No</option>
+            </select>
+        </div>
+    
+        <div class="btn">
+            <button id="btn_precio">Calcular precio</button>
+        </div>
+    
+        <div class="total">
+            <label for="">Total:</label>
+            <p id="total"></p>
+        </div>
+        
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
